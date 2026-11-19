@@ -100,3 +100,15 @@ else
 {
     Console.WriteLine($"Первый индекс: {index}");
 }
+
+
+// // 13. Самостоятельное задание
+// // Вариант 1. Среднее значение
+
+double CalculateAverage(int[] numbers)
+{
+    return (double)SumArray(numbers) / numbers.Length;
+}
+
+int[] values = { 1, 2 };
+Console.WriteLine(CalculateAverage(values));
